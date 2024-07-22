@@ -1,0 +1,181 @@
+@font-face {
+    font-family: PB;
+    src: url(fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: PR;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/s1-bcg-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.main-conatiner{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.icon{
+    display: flex;
+    font-family: PB;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.nagivations{
+    list-style: none;
+    display: flex;
+    font-family: PR;
+    font-size: 16px;
+    line-height: 35px;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 80px;
+}
+
+.try-for-free-btn{
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-family: PB;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.middle-container{
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+
+.middle-container img{
+    width: 35%;
+}
+
+.inner-container{
+    width: 50%;
+    height: 25px;
+    margin-top: 150px;
+    transition: 1.5s;
+}
+
+.ads{
+    background-color: lightgray;
+    border-radius: 50px;
+    width: 65%;
+    position: relative;
+}
+
+.ads p{
+    color: rgb(70, 70, 70);
+    line-height: 25px;
+    font-family: PR;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: orange;
+    position: absolute;
+}
+
+.middle-container h1{
+    font-family: PB;
+    font-size: 46px;
+    color: rgb(0, 0, 83);
+    line-height: 70px;
+}
+
+.p{
+    color: gray;
+    font-family: PR;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: PR;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.middle2-container{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 30px auto;
+}
+
+.middle2-container img{
+    width: 45%;
+}
+
+.inner2-container{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.inner2-container h1{
+    font-family: PB;
+    font-size: 32px;
+    width: 75%;
+}
+
+.mini-container{
+    margin-top: 25px;
+    width: 400px;
+    position: relative;
+}
+
+.mini-container h3{
+    font-family: PB;
+}
+
+.mini-container img{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    right: 100%;
+    top: 5%;
+    bottom: 100%;
+}
+
+.mini-container div{
+    margin-left: 125px;
+}
+
+.footer-container{
+    display: flex;
+    width: 65%;
+    margin: 100px auto;
+}
+
+.footer-container h1{
+    font-family: PB;
+    margin-right: 50px;
+    font-size: 32px;
+}
+
+.footer-container p{
+    font-family: PR;
+    font-size: 15px;
+    margin: 40px 50px;
+    color: gray;
+}
